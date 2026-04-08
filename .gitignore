@@ -1,0 +1,20 @@
+# Credentials — never commit keys
+credentials/
+*.json
+!requirements*.json
+
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
